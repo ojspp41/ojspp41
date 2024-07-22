@@ -33,6 +33,10 @@
 
 - 이메일: ojspp000@naver.com , ojsppppppp41@gmail.com
 
+## 🌟 Projects
+<img src="https://github.com/ojspp41\assets\comatching.png" alt="COMAtching 프로젝트 이미지" width="300" />
+### Project: COMAtching
+
 ## 🌐 블로그
 준비중 
 
