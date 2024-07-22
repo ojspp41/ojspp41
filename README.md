@@ -34,8 +34,9 @@
 - 이메일: ojspp000@naver.com , ojsppppppp41@gmail.com
 
 ## 🌟 Projects
-<img src="https://github.com/ojspp41\assets\comatching.png" alt="COMAtching 프로젝트 이미지" width="300" />
-### Project: COMAtching
+**기술 스택:** Front-end (React, Vanilla CSS)
+<img src="https://github.com/ojspp41/ojspp41/blob/main/assets/comatching.png" alt="COMAtching 프로젝트 이미지" width="200" />
+
 
 ## 🌐 블로그
 준비중 
