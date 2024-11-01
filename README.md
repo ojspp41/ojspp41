@@ -41,8 +41,22 @@
 
 - **기술 스택:** Front-end (React, Vanilla CSS)
 - **이미지:**  
-<img src="https://github.com/ojspp41/ojspp41/blob/main/assets/comatching.png" alt="COMAtching 프로젝트 이미지" width="200" />
-<img src="https://github.com/ojspp41/ojspp41/blob/main/assets/catspotlogo.jpg" alt="COMAtching 프로젝트 이미지" width="200" />
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/comatching.png" alt="COMAtching 프로젝트 이미지" width="200" />
+    </td>
+    <td style="width: 20px;"></td>
+    <td>
+      <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/catspotlogo.jpg" alt="CatSpot 로고 이미지" width="200" />
+    </td>
+    <td style="width: 20px;"></td>
+    <td>
+      <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/Logo BFC.png" alt="CatSpot 로고 이미지" width="200" />
+    </td>
+  </tr>
+</table>
+
 
 ## 🌐 블로그
 준비중 
