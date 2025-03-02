@@ -37,7 +37,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/Meeting_Room.png" alt="컴퓨터 공학과 로고" width="200" />
+      <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/logo.svg.url" alt="컴퓨터 공학과 로고" width="200" />
     </td>
    <td style="width: 20px;"></td>
     <td>
