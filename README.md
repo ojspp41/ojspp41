@@ -37,19 +37,27 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/meeting.svg" alt="컴퓨터 공학과 로고" width="200" />
-    </td>
-   <td style="width: 20px;"></td>
-    <td>
-      <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/comatching.png" alt="COMAtching 프로젝트 이미지" width="200" />
+      <a href="https://github.com/ojspp41/Meeting_Room" target="_blank">
+        <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/meeting.svg" alt="컴퓨터 공학과 로고" width="200" />
+      </a>
     </td>
     <td style="width: 20px;"></td>
     <td>
-      <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/catspotlogo.jpg" alt="CatSpot 로고 이미지" width="200" />
+      <a href="https://github.com/COMAtching" target="_blank">
+        <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/comatching.png" alt="COMAtching 프로젝트 이미지" width="200" />
+      </a>
     </td>
     <td style="width: 20px;"></td>
     <td>
-      <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/Logo BFC.png" alt="CatSpot 로고 이미지" width="200" />
+      <a href="https://github.com/ojspp41/Catspot_front" target="_blank">
+        <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/catspotlogo.jpg" alt="CatSpot 로고 이미지" width="200" />
+      </a>
+    </td>
+    <td style="width: 20px;"></td>
+    <td>
+      <a href="https://github.com/COMAtching/COMATCHING_FC_FE" target="_blank">
+        <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/Logo BFC.png" alt="BFC 프로젝트 로고 이미지" width="200" />
+      </a>
     </td>
   </tr>
 </table>
