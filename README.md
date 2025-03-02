@@ -12,15 +12,8 @@
 
 ## 🛠️ My Tech Stack
 
-## Languages and Tools
-
-
-<img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" width="100" style="margin-right: px;"/>&nbsp; &nbsp;
-<img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" width="100" />&nbsp; &nbsp;
-<img src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=white" width="100" />
-<img src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" width="100" />
-<img src="https://img.shields.io/badge/-SCSS-CC6699?style=flat-square&logo=sass&logoColor=white" width="100" />
-
+🚀 Languages and Tools
+<p align="center"> <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" width="100" /> <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" width="100" /> <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" width="100" /> <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" width="100" /> <img src="https://img.shields.io/badge/-SCSS-CC6699?style=flat-square&logo=sass&logoColor=white" width="100" /> </p> <p align="center"> <img src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black" width="100" /> <img src="https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white" width="100" /> <img src="https://img.shields.io/badge/-React%20Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" width="100" /> <img src="https://img.shields.io/badge/-Zustand-000?style=flat-square&logo=Zustand&logoColor=white" width="100" /> <img src="https://img.shields.io/badge/-Recoil-3578E5?style=flat-square&logo=recoil&logoColor=white" width="100" /> </p> <p align="center"> <img src="https://img.shields.io/badge/-React%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" width="100" /> <img src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" width="100" /> <img src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" width="100" /> <img src="https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" width="100" /> <img src="https://img.shields.io/badge/-Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white" width="100" /> </p>
 
 ---
 ## 공부 중인 기술
@@ -44,6 +37,10 @@
 <table>
   <tr>
     <td>
+      <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/Meeting_Room.png" alt="컴퓨터 공학과 로고" width="200" />
+    </td>
+   <td style="width: 20px;"></td>
+    <td>
       <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/comatching.png" alt="COMAtching 프로젝트 이미지" width="200" />
     </td>
     <td style="width: 20px;"></td>
@@ -58,7 +55,22 @@
 </table>
 
 
-## 🌐 블로그
-준비중 
+블로그 링크에 **Tistory 로고와 텍스트**를 추가하여 더 눈에 띄도록 만들었습니다! 🚀  
+
+---
+
+## 🌐 블로그  
+
+<p align="left">
+  <a href="https://ojspp41.tistory.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Tistory-000000?style=for-the-badge&logo=Tistory&logoColor=white" alt="Tistory Blog">
+  </a>
+</p>
+
+> 📌 **Tistory 블로그에서 더 많은 기술 관련 글을 확인!**  
+🔗 **[👉 블로그 바로 가기](https://ojspp41.tistory.com/)**  
+
+---
+
 
 감사합니다!
