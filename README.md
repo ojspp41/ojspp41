@@ -23,6 +23,9 @@
 ## 📈 백준 티어
 
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=ojspp41)](https://solved.ac/ojspp41)
+ 프로그래머스 챌린지](https://school.programmers.co.kr/learn/challenges)**  
+
+---
 
 ---
 
@@ -65,20 +68,25 @@
 
 블로그 링크에 **Tistory 로고와 텍스트**를 추가하여 더 눈에 띄도록 만들었습니다! 🚀  
 
+
+
 ---
 
-## 🌐 블로그  
+## 🌐 웹사이트 & 블로그  
 
 <p align="left">
+  <a href="https://portfolio-nextjs-puce-pi.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/My_Website-000000?style=for-the-badge&logo=react&logoColor=white" alt="My Website">
+  </a>
+  &nbsp;&nbsp;
   <a href="https://ojspp41.tistory.com/" target="_blank">
     <img src="https://img.shields.io/badge/Tistory-000000?style=for-the-badge&logo=Tistory&logoColor=white" alt="Tistory Blog">
   </a>
 </p>
 
-> 📌 **Tistory 블로그에서 더 많은 기술 관련 글을 확인!**  
+> 📌 **웹사이트 및 블로그에서 더 많은 기술 관련 글을 확인!**  
+🔗 **[👉 웹사이트 바로 가기](https://portfolio-nextjs-puce-pi.vercel.app/)**  
 🔗 **[👉 블로그 바로 가기](https://ojspp41.tistory.com/)**  
 
 ---
 
-
-감사합니다!
