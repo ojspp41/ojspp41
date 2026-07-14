@@ -1,227 +1,129 @@
-# 안녕하세요, 프론트 준비하는 대학생 Jayden  입니다! 👋
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,50:1e293b,100:312e81&height=150&text=오준석%20·%20Full-Stack%20Engineer&fontColor=e2e8f0&fontSize=36&desc=AI%20/%20LLM%20Application%20—%20measured,%20not%20claimed.&descSize=16&descAlignY=75&fontAlignY=45" width="100%"/>
 
-프론트엔드 개발자로서 아름답고 기능적인 웹 애플리케이션을 만드는 것을 좋아합니다. 아래는 저에 대한 간략한 소개와 기술 스택, 그리고 현재 공부 중인 내용입니다.
+문제를 직접 정의하고 끝까지 푸는 풀스택 개발자입니다.
+화면부터 서버 계약, 파이프라인 연동, 인프라까지 — 모든 결정을 수치로 증명합니다.
 
-## 🚀 About Me
+**[Portfolio](https://fullstack-portfolio-omega-one.vercel.app/)** · **[Blog](https://ojspp41.tistory.com/)** · ojspp000@naver.com
 
-- 💻 저는 프론트엔드 개발자입니다.
-- 🎨 CSS, JavaScript, React를 전문으로 합니다.
-- 🌱 현재 TypeScript, Next.js, Node.js를 공부하고 있습니다.
+<br/>
 
-## 🛠️ My Tech Stack
+## Now
 
-🚀 Languages and Tools
-<p align="center"> <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" width="100" /> <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" width="100" /> <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" width="100" /> <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" width="100" /> <img src="https://img.shields.io/badge/-SCSS-CC6699?style=flat-square&logo=sass&logoColor=white" width="100" /> </p> <p align="center"> <img src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black" width="100" /> <img src="https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white" width="100" /> <img src="https://img.shields.io/badge/-React%20Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" width="100" /> <img src="https://img.shields.io/badge/-Zustand-000?style=flat-square&logo=Zustand&logoColor=white" width="100" /> <img src="https://img.shields.io/badge/-Recoil-3578E5?style=flat-square&logo=recoil&logoColor=white" width="100" /> </p> <p align="center"> <img src="https://img.shields.io/badge/-React%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" width="100" /> <img src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" width="100" /> <img src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" width="100" /> <img src="https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" width="100" /> <img src="https://img.shields.io/badge/-Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white" width="100" /> </p>
+한솔PNS AI개발팀에서 13개 계열사 **1만 명** 규모 사내 LLM 서비스 **AI Atlas**를 개발하고 있습니다. (2025.10 ~)
 
----
-## 공부 중인 기술
- <img src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" width="100" />&nbsp; &nbsp;<img src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" width="100" />&nbsp; &nbsp;
+프론트를 오너로 구현하고, 미터링 조회·사용 한도 제어 API와 파일 미리보기 엔드포인트 등 **서버 계약을 직접 설계**했습니다. Go 기반 중앙 API Gateway(gRPC · Kafka · Redis · MinIO)는 설계 의도를 이해하고 연동합니다.
 
----
-## 📈 백준 티어
+<br/>
 
-[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=ojspp41)](https://solved.ac/ojspp41)
- 
+## Numbers
 
+| 성과 | 수치 | 근거 |
+|---|---|---|
+| 미터링 조회 API | `1,970ms → 2.6ms` | 일배치 사전집계 · BE 직접 구현 |
+| 응답 폭주 시 리렌더 | `99.6%↓` | React Profiler 실측 |
+| Docker 이미지 | `3.63GB → 1.82GB` | 숨은 회귀 1.56GB 레이어 측정 적발 |
+| 깨진 JSON 회복률 | `60% → 97.5%` | 40개 fixture 벤치 |
+| 오픈소스 기여 | `장관상` | 과학기술정보통신부 · Githru |
+| 창업 서비스 | `2,000명 · 매출 800만` | COMAtching 2년 운영 |
 
+<br/>
 
+## Deep Dives
 
+전체 심층분석 9건은 [포트폴리오](https://fullstack-portfolio-omega-one.vercel.app/)에서 인터랙티브로 볼 수 있습니다.
 
+- **AI 사용량·비용 미터링 백오피스** — 화면이 요구하는 데이터 모양으로 백엔드 집계를 역설계. 멱등 집계 · Redis 한도 차단(429) `FE+BE 직접`
+- **파일 인앱 미리보기** — 다운로드/미리보기 통로를 서버에서 분리, 원본 노출 0 · 악성코드 차단 3겹 `FE+BE 직접`
+- **서버사이드 PDF 인보이스** — 미리보기와 같은 DOM을 캡처해 정산 문서 일치를 구조로 보장 `FE+BE 직접`
+- **실시간 통신 6단계 방어** — 응답 섞임·탭 끊김·버벅임을 서버 변경 없이 클라이언트에서 해결 `FE 직접`
+- **Generative UI 파이프라인** — 모델 출력을 믿지 않는다는 전제의 6단계 정제 + 2겹 파싱 `FE 직접`
+- **Dockerfile 고도화** — '동작한다'가 아니라 '왜 이 크기인가'에 답하는 레이어 분리 측정 `Infra 직접`
 
----
+<br/>
 
-## 📫 연락처
+## Projects
 
-- 이메일: ojspp000@naver.com , ojsppppppp41@gmail.com
-
-### Project: COMAtching
-
-- **기술 스택:** Front-end (React, Vanilla CSS)
-- **이미지:**  
 <table>
   <tr>
-    <td>
-      <a href="https://github.com/ojspp41/Meeting_Room" target="_blank">
-        <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/meeting.svg" alt="컴퓨터 공학과 로고" width="200" />
-      </a>
+    <td align="center" width="120">
+      <a href="https://fullstack-portfolio-omega-one.vercel.app/"><img src="https://www.google.com/s2/favicons?domain=hansol.co.kr&sz=128" width="64" alt="AI Atlas"/></a>
     </td>
-    <td style="width: 20px;"></td>
     <td>
-      <a href="https://github.com/COMAtching" target="_blank">
-        <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/comatching.png" alt="COMAtching 프로젝트 이미지" width="200" />
-      </a>
+      <b><a href="https://fullstack-portfolio-omega-one.vercel.app/">AI Atlas</a></b> — 한솔그룹 사내 LLM 서비스 · Full-Stack <code>2025.10 ~</code><br/>
+      13개 계열사 1만 명 · 사수 이탈 후 2개월 만에 런칭 주도 · 프론트 오너 + 미터링/미리보기 서버 계약 직접 설계 · 온프레미스(폐쇄망)
     </td>
-    <td style="width: 20px;"></td>
-    <td>
-      <a href="https://github.com/ojspp41/Catspot_front" target="_blank">
-        <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/catspotlogo.jpg" alt="CatSpot 로고 이미지" width="200" />
-      </a>
+  </tr>
+  <tr>
+    <td align="center" width="120">
+      <a href="https://github.com/githru/githru-vscode-ext"><img src="https://github.com/githru.png" width="72" alt="Githru"/></a>
     </td>
-    <td style="width: 20px;"></td>
     <td>
-      <a href="https://github.com/COMAtching/COMATCHING_FC_FE" target="_blank">
-        <img src="https://github.com/ojspp41/ojspp41/blob/main/assets/Logo BFC.png" alt="BFC 프로젝트 로고 이미지" width="200" />
-      </a>
+      <b><a href="https://github.com/githru/githru-vscode-ext">Githru VSCode Extension</a></b> — 오픈소스 컨트리뷰션 🥇 <code>2025.06 ~</code><br/>
+      렌더링 18.9% 개선 · 변동성 93% 감소 (PR #812) → <b>과학기술정보통신부 장관상</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=go&theme=dark" width="64" alt="Favus"/>
+    </td>
+    <td>
+      <b>Favus</b> — S3 멀티파트 업로드 도구 · 팀장 🥈 <code>2025.06–2025.09</code><br/>
+      Go 병렬 청킹 + 상태 저장 → 대용량 전송 실패율 90%↓ → <b>오픈소스 개발자 대회 우수작</b> (직장인 부문)
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="120">
+      <a href="https://github.com/COMAtching"><img src="./assets/comatching.png" width="80" alt="COMAtching"/></a>
+    </td>
+    <td>
+      <b><a href="https://github.com/COMAtching">COMAtching</a></b> — AI 매칭 서비스 창업 · 팀장 <code>2023.06–2025.05</code><br/>
+      2년 운영 · 누적 2,000명 · 매출 800만 원 · MySQL 스키마 설계 · Toss 결제 멱등성 · Docker/Jenkins CI/CD
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="120">
+      <a href="https://github.com/COMAtching/COMATCHING_FC_FE"><img src="./assets/Logo%20BFC.png" width="80" alt="부천 FC"/></a>
+    </td>
+    <td>
+      <b><a href="https://github.com/COMAtching/COMATCHING_FC_FE">부천 FC | AI 응원 매칭</a></b> — 기업 협업 <code>2024.09–2024.10</code><br/>
+      경기장 실서비스 배포 · 700명 참여 · QR 인증 → 성향 분석 → 매칭 전체 플로우 단독 설계
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="120">
+      <a href="https://github.com/ojspp41/Meeting_Room"><img src="./assets/meeting.svg" width="80" alt="Meeting Room"/></a>
+    </td>
+    <td>
+      <b><a href="https://github.com/ojspp41/Meeting_Room">Meeting Room</a></b> — 빈 강의실 · 도서관 좌석 시각화<br/>
+      GGUM 교내 해커톤 우수상 (React · TS)
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="120">
+      <a href="https://github.com/ojspp41/Catspot_front"><img src="./assets/catspotlogo.jpg" width="80" alt="CatSpot"/></a>
+    </td>
+    <td>
+      <b><a href="https://github.com/ojspp41/Catspot_front">CatSpot</a></b> — 교내 사이드 프로젝트<br/>
+      프론트엔드 개발
     </td>
   </tr>
 </table>
 
+<br/>
 
+## Stack
 
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind,go,kafka,redis,mongodb,mysql,docker,kubernetes,jest&theme=dark&perline=12"/>
 
+**Frontend** — React 19 · Next.js 15 · TypeScript (strict) · Tailwind v4 · Zustand · TanStack Query · WebSocket/STOMP
+**Backend** — Go 1.24 · Gin · gRPC · Protobuf · Kafka · Redis · MongoDB · MySQL · MinIO
+**AI/LLM** — LLM Streaming · Generative UI · RAG · Progressive Markdown Parser · MCP
+**Infra** — Docker Multi-stage · Kubernetes · CI/CD · Jest · Playwright · 폐쇄망 배포
 
+<br/>
 
+<img src="https://github-readme-stats.vercel.app/api?username=ojspp41&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=818cf8&icon_color=818cf8&count_private=true" height="160"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojspp41&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=818cf8&langs_count=6" height="160"/>
 
+[![Solved.ac](http://mazassumnida.wtf/api/v2/generate_badge?boj=ojspp41)](https://solved.ac/ojspp41)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-## 🌐 웹사이트 & 블로그  
-
-
-
-
-
-
-
-
-<p align="left">
-  <a href="https://portfolio-nextjs-puce-pi.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/My_Website-000000?style=for-the-badge&logo=react&logoColor=white" alt="My Website">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://ojspp41.tistory.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Tistory-000000?style=for-the-badge&logo=Tistory&logoColor=white" alt="Tistory Blog">
-  </a>
-</p>
-
-> 📌 **웹사이트 및 블로그에서 더 많은 기술 관련 글을 확인!**  
-🔗 **[👉 웹사이트 바로 가기](https://portfolio-nextjs-puce-pi.vercel.app/)**  
-🔗 **[👉 블로그 바로 가기](https://ojspp41.tistory.com/)**  
-
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<sub>measured, not claimed.</sub>
