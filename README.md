@@ -5,7 +5,6 @@
 
 **[Portfolio](https://fullstack-portfolio-omega-one.vercel.app/)** · **[Blog](https://ojspp41.tistory.com/)** · ojspp000@naver.com
 
-<br/>
 
 ## Now
 
@@ -13,33 +12,6 @@
 
 프론트를 오너로 구현하고, 미터링 조회·사용 한도 제어 API와 파일 미리보기 엔드포인트 등 **서버 계약을 직접 설계**했습니다. Go 기반 중앙 API Gateway(gRPC · Kafka · Redis · MinIO)는 설계 의도를 이해하고 연동합니다.
 
-<br/>
-
-## Numbers
-
-| 성과 | 수치 | 근거 |
-|---|---|---|
-| 미터링 조회 API | `1,970ms → 2.6ms` | 일배치 사전집계 · BE 직접 구현 |
-| 응답 폭주 시 리렌더 | `99.6%↓` | React Profiler 실측 |
-| Docker 이미지 | `3.63GB → 1.82GB` | 숨은 회귀 1.56GB 레이어 측정 적발 |
-| 깨진 JSON 회복률 | `60% → 97.5%` | 40개 fixture 벤치 |
-| 오픈소스 기여 | `장관상` | 과학기술정보통신부 · Githru |
-| 창업 서비스 | `2,000명 · 매출 800만` | COMAtching 2년 운영 |
-
-<br/>
-
-## Deep Dives
-
-전체 심층분석 9건은 [포트폴리오](https://fullstack-portfolio-omega-one.vercel.app/)에서 인터랙티브로 볼 수 있습니다.
-
-- **AI 사용량·비용 미터링 백오피스** — 화면이 요구하는 데이터 모양으로 백엔드 집계를 역설계. 멱등 집계 · Redis 한도 차단(429) `FE+BE 직접`
-- **파일 인앱 미리보기** — 다운로드/미리보기 통로를 서버에서 분리, 원본 노출 0 · 악성코드 차단 3겹 `FE+BE 직접`
-- **서버사이드 PDF 인보이스** — 미리보기와 같은 DOM을 캡처해 정산 문서 일치를 구조로 보장 `FE+BE 직접`
-- **실시간 통신 6단계 방어** — 응답 섞임·탭 끊김·버벅임을 서버 변경 없이 클라이언트에서 해결 `FE 직접`
-- **Generative UI 파이프라인** — 모델 출력을 믿지 않는다는 전제의 6단계 정제 + 2겹 파싱 `FE 직접`
-- **Dockerfile 고도화** — '동작한다'가 아니라 '왜 이 크기인가'에 답하는 레이어 분리 측정 `Infra 직접`
-
-<br/>
 
 ## Projects
 
@@ -120,7 +92,30 @@
 **AI/LLM** — LLM Streaming · Generative UI · RAG · Progressive Markdown Parser · MCP
 **Infra** — Docker Multi-stage · Kubernetes · CI/CD · Jest · Playwright · 폐쇄망 배포
 
-<br/>
+## Numbers
+
+| 성과 | 수치 | 근거 |
+|---|---|---|
+| 미터링 조회 API | `1,970ms → 2.6ms` | 일배치 사전집계 · BE 직접 구현 |
+| 응답 폭주 시 리렌더 | `99.6%↓` | React Profiler 실측 |
+| Docker 이미지 | `3.63GB → 1.82GB` | 숨은 회귀 1.56GB 레이어 측정 적발 |
+| 깨진 JSON 회복률 | `60% → 97.5%` | 40개 fixture 벤치 |
+| 오픈소스 기여 | `장관상` | 과학기술정보통신부 · Githru |
+| 창업 서비스 | `2,000명 · 매출 800만` | COMAtching 2년 운영 |
+
+
+
+## Deep Dives
+
+전체 심층분석 9건은 [포트폴리오](https://fullstack-portfolio-omega-one.vercel.app/)에서 인터랙티브로 볼 수 있습니다.
+
+- **AI 사용량·비용 미터링 백오피스** — 화면이 요구하는 데이터 모양으로 백엔드 집계를 역설계. 멱등 집계 · Redis 한도 차단(429) `FE+BE 직접`
+- **파일 인앱 미리보기** — 다운로드/미리보기 통로를 서버에서 분리, 원본 노출 0 · 악성코드 차단 3겹 `FE+BE 직접`
+- **서버사이드 PDF 인보이스** — 미리보기와 같은 DOM을 캡처해 정산 문서 일치를 구조로 보장 `FE+BE 직접`
+- **실시간 통신 6단계 방어** — 응답 섞임·탭 끊김·버벅임을 서버 변경 없이 클라이언트에서 해결 `FE 직접`
+- **Generative UI 파이프라인** — 모델 출력을 믿지 않는다는 전제의 6단계 정제 + 2겹 파싱 `FE 직접`
+- **Dockerfile 고도화** — '동작한다'가 아니라 '왜 이 크기인가'에 답하는 레이어 분리 측정 `Infra 직접`
+
 
 <img src="https://github-readme-stats.vercel.app/api?username=ojspp41&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=818cf8&icon_color=818cf8&count_private=true" height="160"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojspp41&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=818cf8&langs_count=6" height="160"/>
 
