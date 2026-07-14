@@ -5,20 +5,35 @@
 
 **[Portfolio](https://fullstack-portfolio-omega-one.vercel.app/)** · **[Blog](https://ojspp41.tistory.com/)** · ojspp000@naver.com
 
+## Career
 
-## Now
-
-한솔PNS AI개발팀에서 13개 계열사 **1만 명** 규모 사내 LLM 서비스 **AI Atlas**를 개발하고 있습니다. (2025.10 ~)
-
-프론트를 오너로 구현하고, 미터링 조회·사용 한도 제어 API와 파일 미리보기 엔드포인트 등 **서버 계약을 직접 설계**했습니다. Go 기반 중앙 API Gateway(gRPC · Kafka · Redis · MinIO)는 설계 의도를 이해하고 연동합니다.
-
+<table>
+  <tr>
+    <td align="center" width="120">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Hansol%20logo.svg?width=220" width="100" alt="Hansol"/>
+    </td>
+    <td>
+      <b>한솔PNS · AI개발팀 — Full-Stack</b> <code>2025.10 ~ 재직 중</code><br/>
+      13개 계열사 <b>1만 명</b> 규모 사내 LLM 서비스 <b>AI Atlas</b> 개발. 사수 이탈 후 입사 2개월 만에 기획·개발·테스트·운영 전 과정을 주도해 런칭. 프론트 오너 구현 + 미터링 조회·사용 한도 제어 API, 파일 미리보기 엔드포인트 등 <b>서버 계약 직접 설계</b>. Go 기반 중앙 API Gateway(gRPC · Kafka · Redis · MinIO)는 설계 의도를 이해하고 연동. 온프레미스(폐쇄망).
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="120">
+      <a href="https://pt-korea.com/"><img src="https://pt-korea.com/og_img.jpg" width="110" alt="PTKOREA"/></a>
+    </td>
+    <td>
+      <b>PTKOREA (삼성 제일기획 자회사) — Full-Stack Intern</b> <code>2025.06 – 2025.09</code><br/>
+      삼성닷컴 96개국 글로벌 사이트 QA 자동화. DNT(브랜드명 번역 오류) 일괄 검증 시스템으로 월 10시간+ 수작업 절감, 초기 로딩 65% 단축(3.7s → 1.3s), 폐쇄망 Electron 사내 앱 개발.
+    </td>
+  </tr>
+</table>
 
 ## Projects
 
 <table>
   <tr>
     <td align="center" width="120">
-      <a href="https://fullstack-portfolio-omega-one.vercel.app/"><img src="https://www.google.com/s2/favicons?domain=hansol.co.kr&sz=128" width="64" alt="AI Atlas"/></a>
+      <a href="https://fullstack-portfolio-omega-one.vercel.app/"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Hansol%20logo.svg?width=220" width="100" alt="AI Atlas"/></a>
     </td>
     <td>
       <b><a href="https://fullstack-portfolio-omega-one.vercel.app/">AI Atlas</a></b> — 한솔그룹 사내 LLM 서비스 · Full-Stack <code>2025.10 ~</code><br/>
@@ -103,8 +118,6 @@
 | 오픈소스 기여 | `장관상` | 과학기술정보통신부 · Githru |
 | 창업 서비스 | `2,000명 · 매출 800만` | COMAtching 2년 운영 |
 
-
-
 ## Deep Dives
 
 전체 심층분석 9건은 [포트폴리오](https://fullstack-portfolio-omega-one.vercel.app/)에서 인터랙티브로 볼 수 있습니다.
@@ -115,7 +128,6 @@
 - **실시간 통신 6단계 방어** — 응답 섞임·탭 끊김·버벅임을 서버 변경 없이 클라이언트에서 해결 `FE 직접`
 - **Generative UI 파이프라인** — 모델 출력을 믿지 않는다는 전제의 6단계 정제 + 2겹 파싱 `FE 직접`
 - **Dockerfile 고도화** — '동작한다'가 아니라 '왜 이 크기인가'에 답하는 레이어 분리 측정 `Infra 직접`
-
 
 <img src="https://github-readme-stats.vercel.app/api?username=ojspp41&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=818cf8&icon_color=818cf8&count_private=true" height="160"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojspp41&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=818cf8&langs_count=6" height="160"/>
 
