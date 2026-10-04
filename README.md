@@ -120,7 +120,7 @@
 
 ## Deep Dives
 
-상세 사례 8개를 **아키텍처 → 문제·목표(S·T) → 해결 과정(A) → 결과(R)** 순서로 정리했습니다. 페이지마다 담당 범위와 검증 조건·현재 한계를 표시합니다.
+상세 사례 8개를 **아키텍처 → 문제·목표 → 해결 과정 → 결과** 순서로 정리했습니다. 페이지마다 담당 범위와 검증 조건·현재 한계를 표시합니다.
 
 - [SLP · MES 생산 리포팅 Agent](https://fullstack-portfolio-omega-one.vercel.app/?p=slp-reporting) — 읽기 전용 MCP 도구·기간 비교·근거가 담긴 HTML 보고서.
 - [사용량·비용 미터링 백오피스](https://fullstack-portfolio-omega-one.vercel.app/?p=metering) — 조회·비교·한도 API와 화면·Excel·인보이스. 공통 Kafka 인입·일배치·가격/환율 기반은 연동 범위.
